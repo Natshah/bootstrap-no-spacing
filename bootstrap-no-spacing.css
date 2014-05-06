@@ -6,6 +6,9 @@
  *  rajab@natshah.com
  */
 
+/** No spacing **/
+.no-spacing {padding:0;margin:0;}
+
 /** No padding **/
 .no-padding {padding:0;}
 .no-padding-v {padding-top:0;padding-bottom:0;}
@@ -25,6 +28,9 @@
 .no-margin-bottom {margin-bottom:0;}
 
 @media (max-width: 767px) {
+  /** No spacing for xs **/
+  .no-spacing-xs {padding:0;margin:0;}
+
   /** No padding for xs **/
   .no-padding-xs {padding:0;}
   .no-padding-v-xs {padding-top:0;padding-bottom:0;}
@@ -45,6 +51,9 @@
 }
 
 @media (min-width: 768px) {
+  /** No spacing for md **/
+  .no-spacing-xs {padding:0;margin:0;}
+
   /** No padding for sm **/
   .no-padding-sm {padding:0;}
   .no-padding-v-sm {padding-top:0;padding-bottom:0;}
@@ -65,6 +74,9 @@
 }
 
 @media (min-width: 992px) {
+  /** No spacing for md **/
+  .no-spacing-md {padding:0;margin:0;}
+
   /** No padding for md **/
   .no-padding-md {padding:0;}
   .no-padding-v-md {padding-top:0;padding-bottom:0;}
@@ -85,6 +97,9 @@
 }
 
 @media (min-width: 1200px) {
+  /** No spacing for lg **/
+  .no-spacing-lg {padding:0;margin:0;}
+
   /** No padding for lg **/
   .no-padding-lg {padding:0;}
   .no-padding-v-lg {padding-top:0;padding-bottom:0;}
