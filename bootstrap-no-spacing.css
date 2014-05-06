@@ -1,0 +1,105 @@
+/**
+ * Bootstrap no spacing for Bootstrap v3.
+ * 
+ *  Rajab Natshah
+ *  rajab.natshah.com
+ *  rajab@natshah.com
+ */
+
+/** No padding **/
+.no-padding {padding:0;}
+.no-padding-v {padding-top:0;padding-bottom:0;}
+.no-padding-h {padding-left:0;padding-right:0;}
+.no-padding-right {padding-right:0;}
+.no-padding-left {padding-left:0;}
+.no-padding-top {padding-top:0;}
+.no-padding-bottom {padding-bottom:0;}
+
+/** No margin **/
+.no-margin {margin:0;}
+.no-margin-v {margin-top:0;margin-bottom:0;}
+.no-margin-h {margin-left:0;margin-right:0;}
+.no-margin-left {margin-left:0;}
+.no-margin-right {margin-right:0;}
+.no-margin-top {margin-top:0;}
+.no-margin-bottom {margin-bottom:0;}
+
+@media (max-width: 767px) {
+  /** No padding for xs **/
+  .no-padding-xs {padding:0;}
+  .no-padding-v-xs {padding-top:0;padding-bottom:0;}
+  .no-padding-h-xs {padding-left:0;padding-right:0;}
+  .no-padding-right-xs {padding-right:0;}
+  .no-padding-left-xs {padding-left:0;}
+  .no-padding-top-xs {padding-top:0;}
+  .no-padding-bottom-xs {padding-bottom:0;}
+
+  /** No margin for xs **/
+  .no-margin-xs {margin:0;}
+  .no-margin-v-xs {margin-top:0;margin-bottom:0;}
+  .no-margin-h-xs {margin-left:0;margin-right:0;}
+  .no-margin-left-xs {margin-left:0;}
+  .no-margin-right-xs {margin-right:0;}
+  .no-margin-top-xs {margin-top:0;}
+  .no-margin-bottom-xs {margin-bottom:0;}
+}
+
+@media (min-width: 768px) {
+  /** No padding for sm **/
+  .no-padding-sm {padding:0;}
+  .no-padding-v-sm {padding-top:0;padding-bottom:0;}
+  .no-padding-h-sm {padding-left:0;padding-right:0;}
+  .no-padding-right-sm {padding-right:0;}
+  .no-padding-left-sm {padding-left:0;}
+  .no-padding-top-sm {padding-right:0;}
+  .no-padding-bottom-sm {padding-left:0;}
+
+  /** No margin for sm **/
+  .no-margin-sm {margin:0;}
+  .no-margin-v-sm {margin-top:0;margin-bottom:0;}
+  .no-margin-h-sm {margin-left:0;margin-right:0;}
+  .no-margin-left-sm {margin-left:0;}
+  .no-margin-right-sm {margin-right:0;}
+  .no-margin-top-sm {margin-top:0;}
+  .no-margin-bottom-sm {margin-bottom:0;}
+}
+
+@media (min-width: 992px) {
+  /** No padding for md **/
+  .no-padding-md {padding:0;}
+  .no-padding-v-md {padding-top:0;padding-bottom:0;}
+  .no-padding-h-md {padding-left:0;padding-right:0;}
+  .no-padding-right-md {padding-right:0;}
+  .no-padding-left-md {padding-left:0;}
+  .no-padding-top-md {padding-right:0;}
+  .no-padding-bottom-md {padding-left:0;}
+
+  /** No margin for md **/
+  .no-margin-md {margin:0;}
+  .no-margin-v-md {margin-top:0;margin-bottom:0;}
+  .no-margin-h-md {margin-left:0;margin-right:0;}
+  .no-margin-left-md {margin-left:0;}
+  .no-margin-right-md {margin-right:0;}
+  .no-margin-top-md {margin-top:0;}
+  .no-margin-bottom-md {margin-bottom:0;}
+}
+
+@media (min-width: 1200px) {
+  /** No padding for lg **/
+  .no-padding-lg {padding:0;}
+  .no-padding-v-lg {padding-top:0;padding-bottom:0;}
+  .no-padding-h-lg {padding-left:0;padding-right:0;}
+  .no-padding-right-lg {padding-right:0;}
+  .no-padding-left-lg {padding-left:0;}
+  .no-padding-top-lg {padding-right:0;}
+  .no-padding-bottom-lg {padding-left:0;}
+
+  /** No margin for lg **/
+  .no-margin-lg {margin:0;}
+  .no-margin-v-lg {margin-top:0;margin-bottom:0;}
+  .no-margin-h-lg {margin-left:0;margin-right:0;}
+  .no-margin-left-lg {margin-left:0;}
+  .no-margin-right-lg {margin-right:0;}
+  .no-margin-top-lg {margin-top:0;}
+  .no-margin-bottom-lg {margin-bottom:0;}
+}
