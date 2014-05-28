@@ -2,7 +2,8 @@
  *  Bootstrap no spacing for Twitter Bootstrap v3.
  *  
  *  You can use a ready CSS classes to control the spacing layout for bootstrap v3.
- *  
+ *  https://github.com/Natshah/bootstrap-no-spacing
+ *
  *         no-spacing : no padding and no margin.
  *         
  *       no-padding-v : no vertical padding.
@@ -22,11 +23,7 @@
  *   
  *   Add -xs, -sm, -md, -lg to the end of each class to restrict that the selected media
  *  
- *  
- *   Rajab Natshah
- *   rajab.natshah.com
- *   rajab@natshah.com
- */
+ */  
 
 /** No spacing **/
 .no-spacing {padding:0;margin:0;}
