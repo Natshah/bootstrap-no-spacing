@@ -5,6 +5,8 @@
  *  https://github.com/Natshah/bootstrap-no-spacing
  *
  *         no-spacing : no padding and no margin.
+ *      no-spacing-v  : no vertical padding and no vertical margin.
+ *      no-spacing-h  : no horizontal padding and no horizontal margin.
  *         
  *       no-padding-v : no vertical padding.
  *       no-padding-h : no horizontal padding.
@@ -27,6 +29,8 @@
 
 /** No spacing **/
 .no-spacing {padding:0;margin:0;}
+.no-spacing-v {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+.no-spacing-h {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
 
 /** No padding **/
 .no-padding {padding:0;}
@@ -49,7 +53,9 @@
 @media (max-width: 767px) {
   /** No spacing for xs **/
   .no-spacing-xs {padding:0;margin:0;}
-
+  .no-spacing-v-xs {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+  .no-spacing-h-xs {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+  
   /** No padding for xs **/
   .no-padding-xs {padding:0;}
   .no-padding-v-xs {padding-top:0;padding-bottom:0;}
@@ -70,9 +76,11 @@
 }
 
 @media (min-width: 768px) {
-  /** No spacing for md **/
-  .no-spacing-xs {padding:0;margin:0;}
-
+  /** No spacing for sm **/
+  .no-spacing-sm {padding:0;margin:0;}
+  .no-spacing-v-sm {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+  .no-spacing-h-sm {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+  
   /** No padding for sm **/
   .no-padding-sm {padding:0;}
   .no-padding-v-sm {padding-top:0;padding-bottom:0;}
@@ -95,6 +103,8 @@
 @media (min-width: 992px) {
   /** No spacing for md **/
   .no-spacing-md {padding:0;margin:0;}
+  .no-spacing-v-md {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+  .no-spacing-h-md {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
 
   /** No padding for md **/
   .no-padding-md {padding:0;}
@@ -118,7 +128,9 @@
 @media (min-width: 1200px) {
   /** No spacing for lg **/
   .no-spacing-lg {padding:0;margin:0;}
-
+  .no-spacing-v-lg {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+  .no-spacing-h-lg {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+  
   /** No padding for lg **/
   .no-padding-lg {padding:0;}
   .no-padding-v-lg {padding-top:0;padding-bottom:0;}
