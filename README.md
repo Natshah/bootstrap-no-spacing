@@ -25,8 +25,8 @@ You can use a ready CSS classes to control the spacing layout for bootstrap v3.
  Add -xs, -sm, -md, -lg to the end of each class to restrict that the selected media
 
 
-   Rajab Natshah
-   http://rajab.natshah.com
-   rajab@natshah.com
+   - Rajab Natshah
+   - http://rajab.natshah.com
+   - rajab@natshah.com
  
  
