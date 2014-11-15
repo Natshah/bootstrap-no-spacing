@@ -6,7 +6,8 @@ Bootstrap no spacing for Twitter Bootstrap v3.
 You can use a ready CSS classes to control the spacing layout for bootstrap v3.
 
             no-spacing : no padding and no margin.
-     
+            
+            no-padding : no padding
           no-padding-v : no vertical padding.
           no-padding-h : no horizontal padding.
       no-padding-right : no right padding.
@@ -22,7 +23,7 @@ You can use a ready CSS classes to control the spacing layout for bootstrap v3.
        no-margin-top : no top margin.
     no-margin-bottom : no bottom margin.
  
- Add -xs, -sm, -md, -lg to the end of each class to restrict that the selected media
+ Add -xs, -sm, -md, -lg to the end of each class to restrict that class to the selected media
 
 
    - Rajab Natshah
