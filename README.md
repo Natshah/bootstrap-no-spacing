@@ -1,4 +1,4 @@
-bootstrap-no-spacing
+bootstrap-no-spacing 3.x-1.1
 ====================
 
 Bootstrap no spacing for Twitter Bootstrap v3.
