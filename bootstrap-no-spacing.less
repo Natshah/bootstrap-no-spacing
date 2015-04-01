@@ -1,32 +1,40 @@
 /**
  *  Bootstrap no spacing 3.x-1.1 for Twitter Bootstrap v3.
- *  
+ *
  *  You can use a ready CSS classes to control the spacing layout for bootstrap v3.
  *  https://github.com/Natshah/bootstrap-no-spacing
  *
- *         no-spacing : no padding and no margin.
- *      no-spacing-v  : no vertical padding and no vertical margin.
- *      no-spacing-h  : no horizontal padding and no horizontal margin.
- *         
- *         no-padding : no padding
- *       no-padding-v : no vertical padding.
- *       no-padding-h : no horizontal padding.
- *   no-padding-right : no right padding.
- *    no-padding-left : no left padding.
- *     no-padding-top : no top padding.
+ *  no-spacing : no padding and no margin.
+ *  no-spacing-v  : no vertical padding and no vertical margin.
+ *  no-spacing-h  : no horizontal padding and no horizontal margin.
+ *
+ *  no-padding : no padding
+ *  no-padding-v : no vertical padding.
+ *  no-padding-h : no horizontal padding.
+ *  no-padding-right : no right padding.
+ *  no-padding-left : no left padding.
+ *  no-padding-top : no top padding.
  *  no-padding-bottom : no bottom padding.
- *  
- *          no-margin : no margin.
- *        no-margin-v : no vertical margin.
- *        no-margin-h : no horizontal margin.
- *     no-margin-left : no left margin.
- *    no-margin-right : no right margin.
- *      no-margin-top : no top margin.
- *   no-margin-bottom : no bottom margin.
- *   
- *   Add -xs, -sm, -md, -lg to the end of each class to restrict that to the selected media
- *  
- */  
+ *
+ *  no-margin : no margin.
+ *  no-margin-v : no vertical margin.
+ *  no-margin-h : no horizontal margin.
+ *  no-margin-left : no left margin.
+ *  no-margin-right : no right margin.
+ *  no-margin-top : no top margin.
+ *  no-margin-bottom : no bottom margin.
+ *
+ *  Add -xs, -sm, -md, -lg to the end of each class to restrict that to the selected media
+ *
+ */
+
+/**
+ *  Defining bootstrap breakpoints variables
+*/
+@screen-xs:           480px;
+@screen-sm:          768px;
+@screen-md:          992px;
+@screen-lg:            1200px;
 
 /** No spacing **/
 .no-spacing {padding:0;margin:0;}
@@ -51,12 +59,12 @@
 .no-margin-top {margin-top:0;}
 .no-margin-bottom {margin-bottom:0;}
 
-@media (max-width: 767px) {
+@media (max-width: (@screen-sm - 1)) {
   /** No spacing for xs **/
   .no-spacing-xs {padding:0;margin:0;}
   .no-spacing-v-xs {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
   .no-spacing-h-xs {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
-  
+
   /** No padding for xs **/
   .no-padding-xs {padding:0;}
   .no-padding-v-xs {padding-top:0;padding-bottom:0;}
@@ -76,12 +84,12 @@
   .no-margin-bottom-xs {margin-bottom:0;}
 }
 
-@media (min-width: 768px) {
+@media (min-width: @screen-sm) {
   /** No spacing for sm **/
   .no-spacing-sm {padding:0;margin:0;}
   .no-spacing-v-sm {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
   .no-spacing-h-sm {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
-  
+
   /** No padding for sm **/
   .no-padding-sm {padding:0;}
   .no-padding-v-sm {padding-top:0;padding-bottom:0;}
@@ -101,7 +109,7 @@
   .no-margin-bottom-sm {margin-bottom:0;}
 }
 
-@media (min-width: 992px) {
+@media (min-width: @screen-md) {
   /** No spacing for md **/
   .no-spacing-md {padding:0;margin:0;}
   .no-spacing-v-md {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -126,12 +134,12 @@
   .no-margin-bottom-md {margin-bottom:0;}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: @screen-lg) {
   /** No spacing for lg **/
   .no-spacing-lg {padding:0;margin:0;}
   .no-spacing-v-lg {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
   .no-spacing-h-lg {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
-  
+
   /** No padding for lg **/
   .no-padding-lg {padding:0;}
   .no-padding-v-lg {padding-top:0;padding-bottom:0;}
