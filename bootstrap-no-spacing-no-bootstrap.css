@@ -1,32 +1,32 @@
 /**
  *  Bootstrap no spacing 3.x-1.1 for Twitter Bootstrap v3.
- *  
+ *
  *  You can use a ready CSS classes to control the spacing layout for bootstrap v3.
  *  https://github.com/Natshah/bootstrap-no-spacing
  *
- *         no-spacing : no padding and no margin.
- *      no-spacing-v  : no vertical padding and no vertical margin.
- *      no-spacing-h  : no horizontal padding and no horizontal margin.
- *         
- *         no-padding : no padding
- *       no-padding-v : no vertical padding.
- *       no-padding-h : no horizontal padding.
- *   no-padding-right : no right padding.
- *    no-padding-left : no left padding.
- *     no-padding-top : no top padding.
+ *  no-spacing : no padding and no margin.
+ *  no-spacing-v  : no vertical padding and no vertical margin.
+ *  no-spacing-h  : no horizontal padding and no horizontal margin.
+ *
+ *  no-padding : no padding
+ *  no-padding-v : no vertical padding.
+ *  no-padding-h : no horizontal padding.
+ *  no-padding-right : no right padding.
+ *  no-padding-left : no left padding.
+ *  no-padding-top : no top padding.
  *  no-padding-bottom : no bottom padding.
- *  
- *          no-margin : no margin.
- *        no-margin-v : no vertical margin.
- *        no-margin-h : no horizontal margin.
- *     no-margin-left : no left margin.
- *    no-margin-right : no right margin.
- *      no-margin-top : no top margin.
- *   no-margin-bottom : no bottom margin.
- *   
- *   Add -xs, -sm, -md, -lg to the end of each class to restrict that to the selected media
- *  
- */  
+ *
+ *  no-margin : no margin.
+ *  no-margin-v : no vertical margin.
+ *  no-margin-h : no horizontal margin.
+ *  no-margin-left : no left margin.
+ *  no-margin-right : no right margin.
+ *  no-margin-top : no top margin.
+ *  no-margin-bottom : no bottom margin.
+ *
+ *  Add -xs, -sm, -md, -lg to the end of each class to restrict that to the selected media
+ *
+ */
 
 /** No spacing **/
 .no-spacing {padding:0;margin:0;}
