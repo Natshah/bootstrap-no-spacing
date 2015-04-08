@@ -1,9 +1,9 @@
-Bootstrap No Spacing 3.x-1.1
+Bootstrap No Spacing 3.x-1.1.1
 ====================
 
 Bootstrap no spacing for Twitter Bootstrap v3.
 
-You can use a ready CSS classes to control the spacing layout for bootstrap v3.
+You can use a ready CSS/LESS classes to control the spacing layout for bootstrap v3.
 
             no-spacing : no padding and no margin.
             
