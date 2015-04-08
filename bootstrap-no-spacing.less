@@ -1,7 +1,7 @@
 /**
- *  Bootstrap no spacing 3.x-1.1 for Twitter Bootstrap v3.
+ *  Bootstrap no spacing 3.x-1.1.1 for Twitter Bootstrap v3.
  *  
- *  You can use a ready CSS classes to control the spacing layout for bootstrap v3.
+ *  You can use a ready CSS/LESS classes to control the spacing layout for bootstrap v3.
  *  https://github.com/Natshah/bootstrap-no-spacing
  *
  *         no-spacing : no padding and no margin.
@@ -51,7 +51,7 @@
 .no-margin-top {margin-top:0;}
 .no-margin-bottom {margin-bottom:0;}
 
-@media (max-width: 767px) {
+@media (max-width: @screen-xs) {
   /** No spacing for xs **/
   .no-spacing-xs {padding:0;margin:0;}
   .no-spacing-v-xs {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -76,7 +76,7 @@
   .no-margin-bottom-xs {margin-bottom:0;}
 }
 
-@media (min-width: 768px) {
+@media (min-width: @screen-sm-min) {
   /** No spacing for sm **/
   .no-spacing-sm {padding:0;margin:0;}
   .no-spacing-v-sm {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -101,7 +101,7 @@
   .no-margin-bottom-sm {margin-bottom:0;}
 }
 
-@media (min-width: 992px) {
+@media (min-width: @screen-md-min) {
   /** No spacing for md **/
   .no-spacing-md {padding:0;margin:0;}
   .no-spacing-v-md {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -126,7 +126,7 @@
   .no-margin-bottom-md {margin-bottom:0;}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: @screen-lg-min) {
   /** No spacing for lg **/
   .no-spacing-lg {padding:0;margin:0;}
   .no-spacing-v-lg {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
