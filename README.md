@@ -27,11 +27,6 @@ You can use a ready CSS/LESS classes to control the spacing layout for bootstrap
 
 
    - Rajab Natshah
-   - http://rajab.natshah.com
-   - rajab@natshah.com
-
-   - Mohammad AlQanneh
-   - http://www.qanneh.me
-   - mqanneh@gmail.com
+   - http://natshah.com
  
  
