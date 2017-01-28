@@ -1,4 +1,4 @@
-Bootstrap No Spacing 3.x-1.1.1
+# Bootstrap No Spacing 3.1.1
 ====================
 
 Bootstrap no spacing for Twitter Bootstrap v3.
@@ -25,8 +25,11 @@ You can use a ready CSS/LESS classes to control the spacing layout for bootstrap
  
  Add -xs, -sm, -md, -lg to the end of each class to restrict that class to the selected media
 
-
+```
+composer require natshah/bootstrap-no-spacing
+```   
+ 
    - Rajab Natshah
-   - http://natshah.com
+   - http://natshah.com 
  
  
