@@ -1,8 +1,8 @@
 /**
  *  Bootstrap no spacing 3.1.1 for Twitter Bootstrap v3.
  *  
- *  You can use a ready CSS classes to control the spacing layout for bootstrap v3.
- *  https://github.com/Natshah/bootstrap-no-spacing
+ *  You can use a ready CSS/LESS classes to control the spacing layout for bootstrap v3.
+ *  https://github.com/Vardot/bootstrap-no-spacing
  *
  *         no-spacing : no padding and no margin.
  *      no-spacing-v  : no vertical padding and no vertical margin.
@@ -25,8 +25,11 @@
  *   no-margin-bottom : no bottom margin.
  *   
  *   Add -xs, -sm, -md, -lg to the end of each class to restrict that to the selected media
- *  
- */  
+ *
+ */
+
+//  We need to import variables and mixins first. Uncomment this if need that.
+@import '../bootstrap/less/variables';
 
 /** No spacing **/
 .no-spacing {padding:0;margin:0;}
@@ -42,6 +45,9 @@
 .no-padding-top {padding-top:0;}
 .no-padding-bottom {padding-bottom:0;}
 
+[dir="rtl"] .no-padding-right {padding-right:auto;padding-left:0;}
+[dir="rtl"] .no-padding-left {padding-left:auto;padding-right:0;}
+
 /** No margin **/
 .no-margin {margin:0;}
 .no-margin-v {margin-top:0;margin-bottom:0;}
@@ -51,7 +57,10 @@
 .no-margin-top {margin-top:0;}
 .no-margin-bottom {margin-bottom:0;}
 
-@media (max-width: 767px) {
+[dir="rtl"] .no-margin-left {margin-left:auto;margin-right:0;}
+[dir="rtl"] .no-margin-right {margin-right:auto;margin-left:0;}
+
+@media (max-width: @screen-xs) {
   /** No spacing for xs **/
   .no-spacing-xs {padding:0;margin:0;}
   .no-spacing-v-xs {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -66,6 +75,9 @@
   .no-padding-top-xs {padding-top:0;}
   .no-padding-bottom-xs {padding-bottom:0;}
 
+  [dir="rtl"] .no-padding-right-xs {padding-right:auto;padding-left:0;}
+  [dir="rtl"] .no-padding-left-xs {padding-left:auto;padding-right:0;}
+  
   /** No margin for xs **/
   .no-margin-xs {margin:0;}
   .no-margin-v-xs {margin-top:0;margin-bottom:0;}
@@ -74,9 +86,12 @@
   .no-margin-right-xs {margin-right:0;}
   .no-margin-top-xs {margin-top:0;}
   .no-margin-bottom-xs {margin-bottom:0;}
+  
+  [dir="rtl"] .no-margin-left-xs {margin-left:auto;margin-right:0;}
+  [dir="rtl"] .no-margin-right-xs {margin-right:auto;margin-left:0;} 
 }
 
-@media (min-width: 768px) {
+@media (min-width: @screen-sm-min) {
   /** No spacing for sm **/
   .no-spacing-sm {padding:0;margin:0;}
   .no-spacing-v-sm {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -90,7 +105,10 @@
   .no-padding-left-sm {padding-left:0;}
   .no-padding-top-sm {padding-right:0;}
   .no-padding-bottom-sm {padding-left:0;}
-
+  
+  [dir="rtl"] .no-padding-right-sm {padding-right:auto;padding-left:0;}
+  [dir="rtl"] .no-padding-left-sm {padding-left:auto;padding-right:0;}
+  
   /** No margin for sm **/
   .no-margin-sm {margin:0;}
   .no-margin-v-sm {margin-top:0;margin-bottom:0;}
@@ -99,9 +117,12 @@
   .no-margin-right-sm {margin-right:0;}
   .no-margin-top-sm {margin-top:0;}
   .no-margin-bottom-sm {margin-bottom:0;}
+  
+  [dir="rtl"] .no-margin-left-sm {margin-left:auto;margin-right:0;}
+  [dir="rtl"] .no-margin-right-sm {margin-right:auto;margin-left:0;} 
 }
 
-@media (min-width: 992px) {
+@media (min-width: @screen-md-min) {
   /** No spacing for md **/
   .no-spacing-md {padding:0;margin:0;}
   .no-spacing-v-md {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -115,7 +136,10 @@
   .no-padding-left-md {padding-left:0;}
   .no-padding-top-md {padding-right:0;}
   .no-padding-bottom-md {padding-left:0;}
-
+  
+  [dir="rtl"] .no-padding-right-md {padding-right:auto;padding-left:0;}
+  [dir="rtl"] .no-padding-left-md {padding-left:auto;padding-right:0;}
+  
   /** No margin for md **/
   .no-margin-md {margin:0;}
   .no-margin-v-md {margin-top:0;margin-bottom:0;}
@@ -124,9 +148,12 @@
   .no-margin-right-md {margin-right:0;}
   .no-margin-top-md {margin-top:0;}
   .no-margin-bottom-md {margin-bottom:0;}
+  
+  [dir="rtl"] .no-margin-left-md {margin-left:auto;margin-right:0;}
+  [dir="rtl"] .no-margin-right-md {margin-right:auto;margin-left:0;}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: @screen-lg-min) {
   /** No spacing for lg **/
   .no-spacing-lg {padding:0;margin:0;}
   .no-spacing-v-lg {margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
@@ -140,6 +167,9 @@
   .no-padding-left-lg {padding-left:0;}
   .no-padding-top-lg {padding-right:0;}
   .no-padding-bottom-lg {padding-left:0;}
+  
+  [dir="rtl"] .no-padding-right-lg {padding-right:auto;padding-left:0;}
+  [dir="rtl"] .no-padding-left-lg {padding-left:auto;padding-right:0;}
 
   /** No margin for lg **/
   .no-margin-lg {margin:0;}
@@ -149,4 +179,7 @@
   .no-margin-right-lg {margin-right:0;}
   .no-margin-top-lg {margin-top:0;}
   .no-margin-bottom-lg {margin-bottom:0;}
+  
+  [dir="rtl"] .no-margin-left-lg {margin-left:auto;margin-right:0;}
+  [dir="rtl"] .no-margin-right-lg {margin-right:auto;margin-left:0;}
 }
