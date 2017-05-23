@@ -23,7 +23,8 @@ You can use a ready CSS/LESS classes to control the spacing layout for bootstrap
        no-margin-top : no top margin.
     no-margin-bottom : no bottom margin.
  
- Add -xs, -sm, -md, -lg to the end of each class to restrict that class to the selected media
+ Add -xs, -sm, -md, -lg to the end of each class to restrict that class
+ to the selected media, And supports RTL right to left.
 
 ```
 composer require Vardot/bootstrap-no-spacing
